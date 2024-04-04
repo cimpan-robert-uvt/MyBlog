@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert's Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+ <header>
+        <h1>Welcome to Robert's Blog</h1>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section>
+<form action="#" method="post" enctype="multipart/form-data">
+    <label for="salutation">Salutation:</label>
+    <select id="salutation" name="salutation">
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Mrs.">Mrs.</option>
+    </select><br><br>
+
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name"><br><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="Romania">Romania</option>
+        <option value="Germania">Germania</option>
+        <option value="Canada">Canada</option>
+    </select><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+    <label>Interests:</label><br>
+    <input type="checkbox" id="sports" name="sports" value="Sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" id="music" name="music" value="Music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="hiking" name="hiking" value="Hiking">
+    <label for="hiking">Hiking</label><br><br>
+
+    <label for="profile_picture">Profile Picture:</label>
+    <input type="file" id="profile_picture" name="profile_picture"><br><br>
+
+    <label for="cv">Upload CV (PDF only):</label>
+    <input type="file" id="cv" name="cv" accept=".pdf"><br><br>
+
+    <label>Communication Preferences:</label><br>
+    <input type="checkbox" id="email" name="email" value="email">
+    <label for="email">Email</label><br>
+    <input type="checkbox" id="sms" name="sms" value="SMS">
+    <label for="sms">SMS</label><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</section>
+ <footer>
+      <p>&copy; 2024 Robert's - Blog</p>
+    </footer>
+</body>
+</html>
